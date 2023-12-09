@@ -1,0 +1,101 @@
+/* Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig */
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box;
+     /* Firefox */
+     -webkit-box-sizing: border-box;
+     /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box;
+     /* IE */
+}
+
+.clear {
+     clear: both;
+}
+
+/* Body and Grid Layout */
+body {
+     background: url('../images/notebook.png');
+     color: #000000;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7;
+     font-size: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 20px;
+     padding: 20px;
+     width: 1100px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+a {
+     text-decoration: none;
+     color: orangered;
+}
+
+p {
+     margin: 0;
+     padding: 0;
+}
+
+header {
+     grid-column: span 2;
+     text-align: left;
+     font-size: 1.5rem;
+}
+
+.heading {
+     padding-bottom: 0;
+     margin-bottom: 0;
+     font-size: 2.5rem;
+}
+
+.subheading {
+     padding-top: 0;
+     margin-top: 0;
+     font-size: 1.2rem;
+
+}
+
+.container {
+     background-color: rgb(239, 239, 239);
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+     padding: 0 20px 0 20px;
+}
+
+.blog-post {
+     width: 90%;
+     padding: 20px 0;
+     border-bottom: 2px groove #ccc;
+     margin: 0 40px;
+}
+
+.byline {
+     width: 90%;
+     padding: 10px 0;
+     margin: 0 40px 20px 40px;
+     color: darkgray;
+}
+
+.container-aside {
+     background-color: rgb(239, 239, 239);
+     height: 680px;
+     padding: 40px;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+     border-radius: 50%;
+     width: 200px;
+     height: 200px;
+}
+
+footer {
+     grid-column: span 2;
+     text-align: left;
+     margin-top: 20px;
+}
