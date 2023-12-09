@@ -18,7 +18,7 @@ Author: Christopher Castig | @castig */
 
 /* Body and Grid Layout */
 body {
-     background: url('../images/notebook.png');
+     background: url('notebook.png');
      color: #000000;
      font-family: 'Lato', sans-serif;
      line-height: 1.7;
